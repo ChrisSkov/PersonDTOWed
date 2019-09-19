@@ -89,7 +89,7 @@ public class PersonResourceTest {
     public void testServerIsUp()
     {
         System.out.println("Testing is server UP");
-        given().when().get("/xxx").then().statusCode(200);
+        given().when().get("/person").then().statusCode(200);
     }
 
     //This test assumes the database contains two rows
